@@ -33,7 +33,7 @@ Nous avons des expériences 3D avec sans doute des [fuites de mémoires](https:/
 Nous n'avons pas le temps de corriger le problème à la source ni d'être sûr que c'étaient les seules expériences avec des problèmes de mémoire.
 
 #### Solution
-> [!NOTE]
+> [!TIP]
 > Sur chrome, chaque onglet est un processus. Fermer l'onglet permet de libérer la mémoire à coup sûr. Comme on a une fuite de mémoire et que l'onglet sature, on ouvre une expérience dans un nouvel onglet et on ferme l'onglet actuel. On bénéficie alors du système de Chrome qui vide la mémoire à coup sûr.
 
 1. Ouvrir l'index/hub via un script pour que chrome autorise la fermeture de l'onglet via un script ([commit](https://github.com/nuit-musee-musba/experience-2024/pull/178/commits/2a555c4562b2564bd4f27578efa16685a5cb46cc))
@@ -87,7 +87,7 @@ L'ordinateur du MusBA a une bonne carte graphique, mais lorsqu'on l'allume en ay
 
 #### Solution
 > [!WARNING]
-> Solution peut-être mal documentée
+> Solution peutêtre mal documentée
 
 1. Il me semble qu'il faut brancher la table sur le port de la carte mère, pas sur la carte graphique
 2. Ensuite, il faut dire à l'ordinateur d'utiliser la carte graphique pour Chrome
