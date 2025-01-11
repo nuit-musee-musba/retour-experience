@@ -45,11 +45,11 @@ Nous n'avons pas le temps de corriger le problème à la source ni d'être sûr 
 La tablette n'est pas toujours accessible. En fait, nous y avons accès qu'une fois pour tout le projet, et 1 fois pour la mise en place finale.
 
 #### Solution
-1. Identifier ce qu'on ne peut tester qu'avec la tablette :
-   2. Responsive
-   3. Installation
-   4. Tactile
-   5. (rajouter si j'ai oublié des trucs)
+1. Identifier ce qu'on ne peut tester qu'avec la table :
+   - Responsive
+   - Installation
+   - Tactile
+   - (rajouter si j'ai oublié des trucs)
 2. Si un accès à la tablette, tester en priorité les points ci-dessus, le reste on peut le tester sur un pc classique.
 3. Si pas d'accès, essayer de trouver un écran tactile **ou un vidéo projecteur** avec une taille ressemblante.
 4. Si pas d'écran avec taille ressemblante, tester sur un pc en simulant la taille de l'écran avec [BetterDisplay](https://github.com/waydabber/BetterDisplay) ou via [l'inspecteur d'éléments](https://drive.google.com/file/d/13nn7Nf9MTph6T_OHQdIMjQydiNKbts94/view) 
@@ -75,7 +75,7 @@ Les utilisateurs sont constamment gênés par leurs cheveux, leur manche etc qui
 
 #### Solution
 > [!TIP]
-> Ce fonctionnement est dû à la technologie tactile infrarouge de la tablette tactile : l'écran détecte les "ombres" sur l'écran plutôt que la pression. 
+> Ce fonctionnement est dû à la technologie tactile infrarouge de la tablette tactile : l'écran détecte la taille du contact plutôt que la pression. 
 
 Tirons parti de la technologie tactile désastreuse de cet écran pour essayer de filtrer les entrées tactiles :
 Récupérer la taille du touch event et filtrer s'il est trop gros/trop petit/pas rond ([Pull-request](https://github.com/nuit-musee-musba/experience-2024/issues/179#issue-2313725906))
@@ -87,7 +87,7 @@ L'ordinateur du MusBA a une bonne carte graphique, mais lorsqu'on l'allume en ay
 
 #### Solution
 > [!WARNING]
-> Solution peutêtre mal documentée
+> Solution est peut-être mal documentée
 
 1. Il me semble qu'il faut brancher la table sur le port de la carte mère, pas sur la carte graphique
 2. Ensuite, il faut dire à l'ordinateur d'utiliser la carte graphique pour Chrome
@@ -99,4 +99,6 @@ Lors de la soirée, des enfants ont appuyé sur le bouton "on/off" de l'écran (
 Il faut donc rallumer l'écran soi-même (car une fois éteint l'enfant se désintéresse du bouton et n'appuie plus dessus).
 
 #### Solution trouvée
+~~Interdire les enfants~~
+
 [Désactiver le bouton en appuyant sur le bouton rond vert de la télécommande](https://github.com/nuit-musee-musba/experience-2024/issues/181#issuecomment-2245288527) 
